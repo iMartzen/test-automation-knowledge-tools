@@ -1,0 +1,87 @@
+*******************************************
+TAKT-1
+*******************************************
+
+Geheugen heeft een adres - Je wijst deze ruimte aan  
+Ladekast, elke laadje krijgt een nummer, bijvoorbeeld 33
+Laadje is een geheugen om te reserveren waar je je variabelen in te bewaren 
+
+Een variable / constante is een verwijzing naar een geheugenadres waar een waarde wordt opgeslagen
+Inhoud(waarde) van het geheugenadres: 
+---------------------------------------------------------------------------------------------------
+- Vast voor een constante 
+- Aanpasbaar voor een variable 
+
+Kenmerken van een constante of variable:
+---------------------------------------------------------------------------------------------------
+- Naam
+- Geheugenplaats
+- Waarde (inhoud geheugenplaats) 
+- Gegevenstype (integer, boolean, string bijv.)
+- Scope (bereik/levensduur) 
+
+Datatypes:
+---------------------------------------------------------------------------------------------------
+- Boolean: true of false 
+- Integer: geheel getal met sign, max waarde 2.147.484.647 resp, 32 bits geheugenruimte, verschil int en Integer buiten scope
+- Long: geheel getal
+- Float/double: floating point geen vast aantal tekens voor of na komma, niet nauwkeurig, (float = 32bits, double 64 bits) 
+- String: Reeks tekens, max 2 GB lengte aanduding int32, ASCII max 2*10^9 tekens, unicode max 1*10^9 tekens, tussen dubbele aanhalingstekens, escape coding is \"
+- Char: 
+- Date: bevat jaar, maand, dag, uren, minuten, seconden, rekent zichzelf om naar externe representatie (maand: 3, 03, mrt, maart)
+
+https://forcedotcom.github.io/phoenix/datatypes.html
+
+Declaratie
+---------------------------------------------------------------------------------------------------
+<datatype> <naam> = <waarde> 
+int waarde = 1;
+boolean antwoord = true; 
+
+Arrays 
+---------------------------------------------------------------------------------------------------
+int[] rijtje = new int[3]; //reserveer 3 vakjes
+rijtje[0] = 5;
+rijtje[1] = 7;
+rijtje[2] = 9; 
+
+Makkkelijkere notatie: 
+int[] rijtje2 = new int[] {5,8,42}
+
+rijtje2.length geeft 3
+
+Commentaar
+---------------------------------------------------------------------------------------------------
+// is commentaarregel 
+/* 
+*
+* voor grote blok commentaar 
+*
+*/ 
+
+/**
+*
+* javadoc
+*
+*/ 
+
+Naamgeving
+---------------------------------------------------------------------------------------------------
+Voor alle namen die je nodig hebt: 
+- Betekenisvol
+- Lengte: niet te kort
+- Eenvorming / eenduidig / consequent
+- Goede naamgeving is een onderdeel vna goed documenteren
+- Veel discussie over wat een goede standaard is 
+- Geen maximale lengte (van variabelen en methode)
+
+int aantal = 1; 
+VARIABELE: aantalMedewerkers = 2400; 
+CONSTANTE: AANTAL_VERSNELLINGEN = 6;
+
+- Naam begint altijd met een kleine letter
+- Gebruik hele woorden
+- Gebruik camelCase
+0 
+
+

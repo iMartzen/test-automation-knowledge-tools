@@ -1,0 +1,43 @@
+JAVA OCA: HOOFDSTUK 2 
+
+OPERATORS & STATEMENTS 
+
+niet leren: tilde & shift operators 
+
+Java numeric promotion rules: 
+- promotion to the largest datatype
+- int en double promoot naar een double of float 
+- in combinatie met artihmetic operator (plus en min enzo) wordt de getal gepromoot naar int (byte x = 3, short y = 3, x+ y = INT) 
+- byte b1 = 65; byte b2 = 2; byte3 = (byte)(b1+b2); 
+- long is met een L er achter, maar als het lager dan een maximum int dan hoeft het niet perse met een L 
+
+- unary (een variabele)
+- binary (twee variabelen) 
+- ternary (drie variabelen)
+
+1x min is min maken van de waarde 
+1x plus is positief maken van de waarde 
+plus en min bij 1 variablene is positief en negatief maken 
+
+++ voor de variable verhoogt ie direct 
+++ na de variabelen doet het na de tijd 
+
+~ bitwise omdraaien 
+
+& = AND 
+| = OR (inclusief) 
+^ = OR (exclusief) 1 van de beide moet waar zijn, andere niet, niet beide.. 
+
+% is wat er over blijft 
+11 / 3 = 3 behalve als het een double was geweest (check java promotie) 
+
+< kleiner 
+> groter 
+<= kleiner dan of gelijk aan 
+>= groter dan of gelijk aan 
+
+int x=10,, y=10, z=30
+sout(!(x<y))
+
+
+

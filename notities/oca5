@@ -1,0 +1,79 @@
+=======
+OCALES5
+=======
+
+Private - only accessible within the class 
+Default - (package private) everywhere in same package 
+Protected - everywhere in the same package  
+Public - everywhere in application 
+
+extends CLASS betekent dat hij alle methodes mee mag nemen behalve privates. 
+tostring methode 
+extends object
+
+@Override = niet verplicht wel, netjes om aan te geven dat je een methode te overschrijven 
+Extends 'birds' geeft aan dat je een kind bent van een andere package. 
+
+Zoek een bovensoort
+en extends deze om accessible te maken
+
+static  
+
+klassevariabelen - van de klasse 
+instantievariabelen - van object 
+
+final betekent dat je niet meer mag wijzigen
+
+static final String _403ERROR = "Access Denied"
+
+constante is vaak static 
+als ie niet static heb je een instantienodig 
+
+constante mag je 1x wijzigen
+static block daar kun je je static final int nog 1 keer in wijzigen
+
+bij static methdos kun je alleen de methode importeren 
+
+String... = andere schrijfwijze voor een array, kun je alleen bij methodes. 
+... varargs
+
+
+//array van arrays strings
+//positie met nummers
+//hashmap metisje key value pair die bevat oan de linkerkoant. bevattder de nummers en oan de oare koant bevat er de koordinaten
+// hashmap op positie 1 is positie
+// methode check for winner op alle mogelijke manieren (for loop en dan checken of alle waarden gelijk zijn op 1 en daarna verticaal en diagnoaal checken
+// check winner als true dan winner
+// niet true dan
+// en check op of bord vol is, remise
+
+
+//        HashMap<String, String> boardFilling = new HashMap<String, String>();
+//
+//        boardFilling.put("1", board[0][0]);
+//        boardFilling.put("2", board[0][1]);
+//        boardFilling.put("3", board[0][2]);
+//        boardFilling.put("4", board[1][0]);
+//        boardFilling.put("5", board[1][1]);
+//        boardFilling.put("6", board[1][2]);
+//        boardFilling.put("7", board[2][0]);
+//        boardFilling.put("8", board[2][1]);
+//        boardFilling.put("9", board[2][2]);
+
+
+
+    }
+}
+
+//array van arrays strings -- check
+//positie met nummers
+//hashmap metisje key value pair die bevat oan de linkerkoant. bevattder de nummers en oan de oare koant bevat er de koordinaten
+// hashmap op positie 1 is positie
+// methode check for winner op alle mogelijke manieren (for loop en dan checken of alle waarden gelijk zijn op 1 en daarna verticaal en diagnoaal checken
+// check winner als true dan winner
+// niet true dan
+// en check op of bord vol is, remise
+
+
+
+

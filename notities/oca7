@@ -1,0 +1,47 @@
+Inherictance & Constructor
+
+- Het eerste statement of een constructor is een oproep naar een andere constructor in de oproep
+- super verwijst naar een variable in de parentklasse 
+- super may not be used after the 1statement of the construciton 
+if no super call is declared in  a constructor, java will insert a no-argument super 
+
+Overriding rules
+- De methode
+- check of override is gelukt, doe het met @Override (als je de @Override kun je checken of hij het goed overschrijft)
+- signature is van public tot aan de haakjes 
+- Accessmodifier kan alleen vergroot worden of gelijk blijven 
+
+Casten 
+
+Car c = (Car)spiderVehicle
+
+
+
+public abstract class Animal { 
+    public abstract void makeSound();
+    public void makeanothersound(){sout("beeh")}
+}
+
+kun je niet direct initialiseren 
+
+abstract class Dog extends Animal {
+    @Override
+
+}
+
+Verschil tussen interface and abstracte classes: bij abstracte classe roep je constructor aan en bij interface niet. 
+interface heeft geen 
+
+final mag niet extenden. 
+
+abstract classes mogen niet private of protected zijn 
+
+public static void main(String[] args]){
+    Animal fikke = new Dog();
+    HasTail fikke = new HasTail();
+    Animal fikkie2 = new Dog();
+    Sout(...)
+}
+
+met variabelen pakg hij de links 
+met methodes pakt hij de rechts 

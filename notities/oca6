@@ -1,0 +1,29 @@
+################
+# OCA TRAINING #
+################
+
+Overloading 
+
+Enscapsulation
+https://www.w3schools.com/java/java_encapsulation.asp
+
+Altijd private maken 
+getter methods begin with get if the property is not a boolean 
+
+public void  setAge(int Age){
+    if(age<0) { 
+        sout("kin net");
+    } else {
+
+    }
+}
+
+getters en setter 
+https://beginnersbook.com/2013/12/java-private-constructor-example/
+
+@Override 
+is de enige notatie de we nodig hebben 
+
+final betekent er mag neit van geerfd worden 
+https://www.bol.com/nl/f/head-first-java/30221935/
+s

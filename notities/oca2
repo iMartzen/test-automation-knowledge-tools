@@ -1,0 +1,85 @@
+=======
+OCALES2
+=======
+
+1. Package
+2. Import
+3. Class
+4. Field
+5. Method 
+
+Primitives 
+
+boolean 		true or false 
+byte 			8 bit
+short 			16 bit 
+int 			32 bit
+long 			64 bit
+float 			32 bit
+double 			64 bit
+char 			16 bit
+
+Variabelen in de een methode moeten we geinitaliseerd worden 
+Als variable in een if statement staat met bijvoorbeeld een boolean, dan moet je deze ook initialiseren 
+Variablescope alleen binnen methode
+static variable bestaat van het begin tot het einde van een programma
+constantes / finales 
+return kun je alleen gebruiken uit ene methode 
+
+https://en.wikibooks.org/wiki/Java_Programming/Primitive_Types
+
+Als je max waarde + 1 is gaat hij naar de laagste min waarde.
+
+o = 017 --> octal : 15
+h = 0xEF --> hex : 239
+b = 0b10 --> bin : 2 
+
+https://riptutorial.com/java/example/6654/hexadecimal--octal-and-binary-literals
+
+primitives hebben geen methodes 
+primitives beginnen met een kleine letter
+primitives kunnen niet null zijn 
+
+String s = "Hallo" ==== IS GEEN PRIMITIVE 
+Dan wordt er in het geheugen "Hallo"opgeslagen 
+s = en referentie
+s bevat het geheugenadres van de string 
+
+int i = 12 
+
+String declareren; //declareren 
+declareren = "Dit is het toekennen van een waarde" //initialiseren
+
+Multiple variables: 
+String s1, s2;
+String s3 = "test", s4 = "nogeentest"
+int i11, i12, i13 = 0; 
+
+int num, String val // mag niet
+int num1, int num2; // mag niet 
+int num3; int num4; // mag wel 
+
+Geen spaties 
+
+ditMagBest
+$ditook
+_123zelfsDitMag
+_allemaalprima123maarikZouhetNietaanRADEN$$ 
+
+Je mag niet beginnen met getallen 
+alleen letters, digits, underscores of dollartekens
+geen sterretje
+int package mag niet is een geserveerd woord 
+
+==Garbage collection=
+
+System.gc() // suggest to run garbage collection 
+Eligible for gabage collection when 
+- the object no longer has any references pointing to it 
+- all references to the object have gone out of scope 
+
+Finalize() //optional methode
+//gets called when garbage collector tries to collect the object 
+
+
+

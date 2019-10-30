@@ -1,0 +1,27 @@
+*******************************************
+TAKT-5
+*******************************************
+
+OO 
+
+An object can be considered a "thing" that can perform a set of related activities. The set of activities that the object performs defines the objects behavior. For example, the hand can grip something or a Student (object) can give the name or address. In pure OOP terms an object is an instance of a class. 
+
+Wat is een class? 
+Een class is de beschrijving, bouwtekening.
+Van een class maak je net zoveel objecten als je nodig hebt
+Een class bestaat uit een naam, eigenschappen, methoden.
+
+///
+
+private int belangrijkeEigenschap = 42;
+
+public int getBelangrijkeEigenschap()
+{
+	return belangrijkeEigenschap;
+}
+public void setBelangrijkeEigenschap(int value)
+{
+	// eerst controleren of de 
+	// nieuwe waarde acceptabel is
+	belangrijkeEigenschap = value;
+}

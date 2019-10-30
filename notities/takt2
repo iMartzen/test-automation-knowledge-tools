@@ -1,0 +1,70 @@
+*******************************************
+TAKT-2
+*******************************************
+Condities
+---------------------------------------------------------------------------------------------------
+ALS, DAN, EINDE.
+ALS, DAN, ANDERS, EINDE.
+
+&& = AND
+|| = NOT 
+
+if (..&&..&&..)
+if (..||..||..)
+
+Meneer van Dale wacht op antwoorden
+AND gaat voor OR 
+Gebruik haakjes --> voor onderscheid 
+Gebruik zo min mogelijke ontkenning.
+
+
+Methoden
+---------------------------------------------------------------------------------------------------
+- Programmatuur met 1 functionaliteit
+- Generiek toepasbaar
+- Meerdere malen en op diverse locaties aan te roepen 
+- Gebruikt eigen (lokale) variabelen
+- Recursiviteit = een methode kan zichzelf aanroepen
+
+Methode zonder returnwaarde: 
+void <naam>([parm(s)])
+{ ... 
+}
+
+Methode met returnwaarde: 
+<gegevenstype> <naam>([param(s)])
+{ ...
+return <waarde> 
+} 
+
+- kan parameters hebben 
+- retouneert een waarde, heeft dus een gegevenstype 
+- return mag meerdere malen voorkomen
+- return beeindigt functionaliteit
+- variabele = <naam>([parm(s)])
+
+
+Classes 
+---------------------------------------------------------------------------------------------------
+Een java class is een blauwdruk waarin wordt vastgelegd welke data kan worden vastgehouden e nwat de class kan uitvoeren met behulp van methoden. 
+
+- verzameling methoden en variablen die logisch bij elkaar horen
+- vereenvoudigt onderhoud 
+- verhoogt begrijpelijkheid programma 
+
+Project
+	Project 
+		Class
+		Variabelen
+		Constanten
+			Methode
+				variabelen
+				constranten
+				
+public -> binnen en buiten het project
+private binnen de klasse
+
+Hoe lokaler een variabele, hoe beter
+Binnen een methode geef je nooit een scope op, altijd private voor die methode 
+
+

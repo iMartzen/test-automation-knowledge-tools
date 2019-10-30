@@ -1,0 +1,54 @@
+################
+# OCA TRAINING #
+################
+
+Examen
+-------
+2,5 uur 
+70 vragen 
+65% 
+Multiple choice
+
+go.oracle.com/tshirt 
+
+Hulpmiddelen:
+-------------
+enthuware.com
+inglearn.com 
+studieboek OCA 8 Study Guide 
+
+
+String message = x > 5 ? "Greater than": false; 
+
+Instantie
+Object
+Methode 
+Constructor 
+Class
+Compiling 
+Import 
+
+
+MyInterface 	a 
+|		   \  /
+|			\/
+C 			B
+
+MyInterface I = C 
+
+---
+
+class Smurf{}
+Je mag maar 1 public class declaren en die moet overeenkomen met de naam van het bestand 
+public -> kun je overal bij 
+static -> slaat op de klasse -> kun je op de klasse aanroepen 
+
+
+---
+Wat is een constructor: 
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+*******************************************
+TAKT-3
+*******************************************
+
+Basisstructuren 
+-------------------------------------------
+- Programmaontwerp
+- Voorbereiding bij het maken van een programma 
+- Blauwdruk van het programma 
+
+Hulpmiddelen
+- functionele specificaties
+- pseudocode
+- stroomschema (is handiger ivm plaatje) 
+
+3 Basisstructuren: 
+- Sequentie (volgorde) 
+- Selectie (maak een keuze) 
+- Iteratie (herhalen)
+ 
+String is niet te vergelijken met ==, maar met .equals. 
+
+Strings  
+---------------------------------------------
+Tekst met alle mogelijke karakters 
+char = 1 teken (alfanumerieke,leestekens) 
+string = array va ntekens (index, positie)
+"escapen" met een slash
+- "deze string bevat een \""
+- slash zelf: "c:\\temp\\voorbeeld.txt"
+
+Strings manipulatie:
+--------------------
+- "Koppelen" van strings concateneren
+- Converteren naar ander type (String <--> value)      
+- Converteren naar kleine letters -> hoofdletters (case) 
+- Verwijderen van spaties/karaketers (trim)
+- Deels uitlezen/kopieren van strings (substring)
+- Vergelijken van strings onderling 
+- Bepalen string lengte 
+
+Van String naar getal: 
+-----------------------
+ String str = "1234"; 
+ int num = Integer.parseInt(str)
+ 
+Van getal naar String:
+---------------------- 
+ int num2 = 1234; 
+ String str2 = String.valueOf(num2);  
+ OF 
+ String str3 = num2.toString();
+ 
+String conversie 
+---------------
+String input = "Voorbeeld";
+String upper = input.toUpperCase();
+Dit geeft als waarde ""VOORBEELD";
+String lower = input.toLowerCase();
+Dit geeft als waarde "voorbeeld"
+
+Spaties verwijderen
+------------------
+String in = "    Voorbeeld met veel spaties     ; 
+String 
+
+Verwijderen van karakters 
+--------------------------
+String in = "Deze zin bevat geen spaties";
+String uit = in.replace(" ", "");
+System.out.println(uit);
+
+Deels kopieren
+---------------
+- Vanaf een bepaalde positie 
+String in = "4131 NJ VIANEN"; 
+String uit = in.substring(8)
+Resulteert in "VIANEN"
+
+- met een bepaalde lengte 
+String in = "4131 NJ VIANEN";
+String uit = in.substring(8,10) 
+Resulteert in "VI"
+
+Zoek naar een teken
+--------------------
+
+String in = "4131 NJ VIANEN";
+Vanaf een bepaalde teken 
+int positie = in.indexOf("VIANEN"); 
+positie bevat 8 
+
+positie = in.indexOf("N", 7);
+positieve bevat 11 
+
+Strings vergelijken
+-------------------
+DIRECT (hoofdlettergevoelig)
+if (strEen.equals(strTwee))
+.. 
+
+INDIRECT (niet hoofdlettergevoelig) 
+if (strEen.equalsIgnoreCase(strTwee))
+..
+
+Opsplitsen string
+-------------------
+String waarde = "aap;noot;mies"
+String[] parts = waarde.split(";");
+for (int i=0;i<parts.length;i++)
+{ System.out.println(parts[i]
+}

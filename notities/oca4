@@ -1,0 +1,48 @@
+=======
+OCALES4
+=======
+
+Java is zerobased. Een string begint bij 0.
+IndexOf is de eerste charahter die je tegen komt. 
+IndexOf geeft aan waar het begint .. zoek vanaf positie .. 
+indexOf ("ot", fromindex: 2) 
+Als hij iets niet vindt geeft hij min 1 terug 
+Je kunt altijd functie in fincties gebruiken 
+
+OCA examen: 
+charAt()
+indexOf()
+Substring()
+
+Stringpool
+
+Stack Heap
+
+In stack staan references en primitives 
+In heap staan alle objecten 
+
+Stringpool 
+Kijkt of het al toegewezen is en gaat het hergebruiken, dit kan omdat het immutabel is 
+
+Een literal is voor een stringpool
+.equalt zegt bevat hij dezelfde charahterreeks 
+
+== is 					  .... same 
+.equals lijken op elkaar  .... equals 
+
+equalsIgnoreCose .. 
+
+StringBuilder 
+
+for(char cur='a'; cur <='z'; cur++)
+{
+alphabet += cur;
+} 
+
+array is fixed size 
+
+
+search array, 
+{"Amsterdam", "Breda", "Leeuwarden"} 
+-3 -2 -1 | 0 , 1, 2 
+je krijg altijd antwoord 

@@ -1,0 +1,29 @@
+*******************************************
+TAKT-4
+*******************************************
+
+I/O & File Input Output 
+---------------------------------------------
+Input -> toetsenbord
+Output -> Printer 
+
+TAKT File
+---------------------------------------------
+
+File Operaties
+---------------------------------------------
+- Openen bestand (nieuw of bestaand)
+- Sluiten 
+- Lezen
+- Schrijven (+ toevoegen, bestaand, verwijderen van onderdelen bestaand)
+- Hernoemen
+- Verwijderen
+- Kopieren 
+
+
+psvm 
+
+BufferedReader reader - new BufferedReader(
+
+File I/O in de testtools 
+---------------------------------------------
